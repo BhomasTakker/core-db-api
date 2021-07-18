@@ -1,2 +1,2 @@
 # core-db-api
- Scrappy api that does it's job
+ Scrappy api that did it's job
