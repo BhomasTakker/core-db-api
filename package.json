@@ -1,0 +1,22 @@
+{
+  "name": "core-db-service",
+  "version": "1.0.0",
+  "description": "Micro Service for managing Gets and Posts to core db.  Arrooo!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "BadDogDigital",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

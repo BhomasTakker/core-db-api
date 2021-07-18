@@ -1,0 +1,16 @@
+{
+    "files":[
+        {
+            "id":"gnewsAPI",
+            "src":"../service/gnewsapi"
+        },
+        {
+            "id":"UKGovCovidAPI",
+            "src":"../service/ukgov/covid19API"
+        },
+        {
+            "id":"youTubeAPI",
+            "src":"../service/youtube/youtubeAPI"
+        }
+    ]
+}

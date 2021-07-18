@@ -1,0 +1,8 @@
+{
+    "id":"baddog-header-model",
+    "name":"baddog-header-model",
+    "src":"./../../mongoose/model/BadDogHeaderModel",
+    "comment":"model is THE database name so 'Header' in Collection 'Headers' ",
+    "model":"Header",
+    "schema":"./../schema/BadDogHeaderSchema"
+}

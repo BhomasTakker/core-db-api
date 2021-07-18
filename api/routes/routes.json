@@ -1,0 +1,71 @@
+{
+    "get":[
+        {
+            "id":"baddog-components",
+            "route":"/baddog/get/components/:action/:query",
+            "api-interface":"baddog-components-get",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogComponentAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/component/component.json"
+        },
+        {
+            "id":"baddog-layout",
+            "route":"/baddog/get/pageLayout/:action/:query",
+            "api-interface":"baddog-layout-get",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogLayoutAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/layout/layout.json"
+        },
+        {
+            "id":"baddog-component-list",
+            "route":"/baddog/get/componentList/:action/:query",
+            "api-interface":"baddog-component-list-get",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogComponentListAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/list/list.json"
+        },
+        {
+            "id":"baddog-header",
+            "route":"/baddog/get/header/:action/:query",
+            "api-interface":"baddog-header-get",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogHeaderAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/header/header.json"
+        }
+    ],
+    "post":[
+        {
+            "id":"baddog-components",
+            "route":"/baddog/post/components/:action/:query",
+            "api-interface":"baddog-components-post",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogComponentAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/component/component.json"
+        },
+        {
+            "id":"baddog-layout",
+            "route":"/baddog/post/pageLayout/:action/:query",
+            "api-interface":"baddog-layout-post",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogLayoutAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/layout/layout.json"
+        },
+        {
+            "id":"baddog-component-list",
+            "route":"/baddog/post/componentList/:action/:query",
+            "api-interface":"baddog-component-list-post",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogComponentListAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/list/list.json"
+        },
+        {
+            "id":"baddog-header",
+            "route":"/baddog/post/header/:action/:query",
+            "api-interface":"baddog-header-post",
+            "src":"./../service/mongoose_wrappers/baddog/BadDogHeaderAPI",
+
+            "apiDetails":"./../../../api/mongoose_details/header/header.json"
+        } 
+    ]
+    
+}

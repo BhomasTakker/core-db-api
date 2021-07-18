@@ -1,0 +1,8 @@
+{
+    "id":"baddog-component-list-model",
+    "name":"baddog-component-list-model",
+    "src":"./../../mongoose/model/BadDogComponentListModel",
+    "comment":"model is THE database name so 'Module' in Collection 'Modules' ",
+    "model":"ComponentList",
+    "schema":"./../schema/BadDogComponentListSchema"
+}
